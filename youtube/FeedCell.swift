@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FeedCell: BaseCell, UICollectionViewDataSource, UICollectionViewDelegate,UICollectionViewDelegateFlowLayout {
+class FeedCell: BaseCell, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
 
     lazy var collectionView: UICollectionView = {
         let layout = UICollectionViewFlowLayout()

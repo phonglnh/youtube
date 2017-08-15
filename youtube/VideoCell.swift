@@ -26,7 +26,6 @@ class BaseCell: UICollectionViewCell {
 
 class VideoCell: BaseCell {
     var video: Video? {
-        
         didSet {
             titleLabel.text = video?.title
             
